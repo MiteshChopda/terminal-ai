@@ -1,0 +1,42 @@
+Screen {
+    align: center top;
+}
+#output_md {
+    overflow-y: auto;
+}
+#output_container {
+    overflow-y: auto;
+    border: solid $primary;
+    width: 100%;
+    padding:0 1;
+    height: 9fr;
+}
+
+#input_container {
+    height: 1fr;
+    width: 100%;
+    layout: horizontal;
+    align-horizontal: center;
+    margin: 1 0 ;
+}
+
+#input {
+    width: 11fr ;
+    padding: 0 1 ;
+}
+
+#btn_send {
+    width: 1fr ;
+}
+.chat_me {
+    background: #949191 ;
+    padding:1;
+    width: 100%;
+    text-align: right;
+}
+.chat_assistance {
+    padding:1;
+    width: 100%;
+    text-align: left;
+}
+

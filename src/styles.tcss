@@ -1,11 +1,14 @@
 Screen {
     align: center top;
 }
-#output_md {
-    overflow-y: auto;
+.response_md {
+}
+.reasoning_md {
+    background:gray;
+    color:black;
 }
 #output_container {
-    overflow-y: auto;
+    overflow: auto auto;
     border: solid $primary;
     width: 100%;
     padding:0 1;

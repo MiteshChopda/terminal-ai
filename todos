@@ -1,0 +1,9 @@
+- chat history & context
+- autoscrolling in textual
+- prompt history, up down arrow
+
+future
+- tool calling
+- files/folder selection using `@`
+- dynamic model selection
+- dynamic api key change

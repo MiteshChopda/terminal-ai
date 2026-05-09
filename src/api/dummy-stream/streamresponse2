@@ -1,0 +1,57 @@
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346517,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"The user says \\\"write long streaming data example\\\". Need generate exact SSE-style OpenRouter chunks with reasoning and content. Must mimic format precisely.","reasoning_details":[{"type":"reasoning.text","text":"The user says \\\"write long streaming data example\\\". Need generate exact SSE-style OpenRouter chunks with reasoning and content. Must mimic format precisely.","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346518,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"Need include multiple reasoning chunks before visible output chunks. Then final usage object and DONE token.","reasoning_details":[{"type":"reasoning.text","text":"Need include multiple reasoning chunks before visible output chunks. Then final usage object and DONE token.","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346518,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"User requested exact format long data. Generate realistic streaming sequence with partial text assembly.","reasoning_details":[{"type":"reasoning.text","text":"User requested exact format long data. Generate realistic streaming sequence with partial text assembly.","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346518,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"Response content should stream token-by-token style. Keep JSON structure valid.","reasoning_details":[{"type":"reasoning.text","text":"Response content should stream token-by-token style. Keep JSON structure valid.","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346519,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"Hello","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346519,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" there!","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346519,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" This","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346519,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" is","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346519,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" a","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346520,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" long","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346520,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" streaming","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346520,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" response","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346520,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" example","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346520,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" generated","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346521,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" in","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346521,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" Server-Sent","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346521,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" Events","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346521,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" format.","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346521,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" Each","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346522,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" chunk","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346522,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" contains","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346522,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" incremental","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346522,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" output","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346522,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" from","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346523,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" the","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346523,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":" model.","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346523,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":null},"finish_reason":"stop","native_finish_reason":"stop"}]}
+
+data: {"id":"gen-1778346517-4qzzS86jp4UYiH3RJ2Zk","object":"chat.completion.chunk","created":1778346523,"model":"nvidia/nemotron-3-nano-30b-a3b:free","provider":"Nvidia","choices":[{"index":0,"delta":{"content":"","role":"assistant"},"finish_reason":"stop","native_finish_reason":"stop"}],"usage":{"prompt_tokens":92,"completion_tokens":214,"total_tokens":306,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":88,"image_tokens":0,"audio_tokens":0}}}
+
+data: [DONE]

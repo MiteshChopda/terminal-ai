@@ -6,7 +6,9 @@ from config.config import API_KEY_REF, MODEL_NAME
 
 
 def api_call(SockAdapterOBJ, prompt="say your greetings in two languages"):
-    url = "https://openrouter.ai/api/v1/chat/completions"
+    # url = "https://openrouter.ai/api/v1/chat/completions"
+    url = "http://localhost:8000"
+
     headers = {
         "Authorization": f"Bearer {API_KEY_REF}",
         "Content-Type": "application/json",

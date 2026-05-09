@@ -47,3 +47,5 @@ class SockAdapterClient:
                 if delta:
                     if delta.get("content") and delta.get("role"):
                         self.textual_obj.stream_response(delta.get("content"))
+                    elif delta.get("reasoning") and delta.get("role"):
+                        self.textual_obj.stream_response(delta.get("reasoning"), isReasoning=True)

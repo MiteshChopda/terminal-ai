@@ -1,18 +1,37 @@
 Screen {
     align: center top;
 }
-.response_md {
-}
-.reasoning_md {
-    background:gray;
-    color:black;
-}
-#output_container {
+
+#chat_container {
     overflow: auto auto;
-    border: solid $primary;
     width: 100%;
     padding:0 1;
     height: 9fr;
+}
+
+.user_input {
+    background: #385255 ;
+    margin: 1;
+    padding: 1;
+    width: 100%;
+    outline: round slategray;
+    text-align: right;
+}
+
+.reasoning {
+    background: #385255 ;
+    margin: 1;
+    padding:1;
+    width: 100%;
+    outline: round slategray;
+    text-align: left;
+}
+
+.response {
+    margin: 1;
+    padding:1;
+    width: 100%;
+    text-align: left;
 }
 
 #input_container {
@@ -25,21 +44,11 @@ Screen {
 
 #input {
     width: 11fr ;
+    outline: round slategray;
     padding: 0 1 ;
 }
 
 #btn_send {
     width: 1fr ;
+    outline: round slategray;
 }
-.chat_me {
-    background: #949191 ;
-    padding:1;
-    width: 100%;
-    text-align: right;
-}
-.chat_assistance {
-    padding:1;
-    width: 100%;
-    text-align: left;
-}
-

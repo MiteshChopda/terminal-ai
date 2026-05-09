@@ -31,6 +31,10 @@ class MyApp(App):
         response_md = self.query_one("#test", Markdown)
         self.call_from_thread(response_md.append, md_content)
 
+        output_container = self.query_one("#output_container", Markdown)
+        output_container.scroll_end(animate=True)
+
+
     def on_button_pressed(self, event: Button.Pressed):
         pass
 
